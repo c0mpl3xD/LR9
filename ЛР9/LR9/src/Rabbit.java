@@ -6,4 +6,13 @@ public class Rabbit extends Animal{
     {
         super(species, genus, typeOfFood);
     }
+    @Override
+    public void feed(String food)
+    {
+        System.out.println(getGenus() + "-" + getSpecies() + " харчується " + food + ".");
+    }
+    @Override
+    public String print(){
+        return getGenus() + "-" + getSpecies();
+    }
 }

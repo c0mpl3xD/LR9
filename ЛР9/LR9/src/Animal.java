@@ -12,7 +12,7 @@ public class Animal {
     public Animal(String species,String  genus, String typeOfFood){
         this.species = species;
         this.genus = genus;
-        this.typeOfFood=typeOfFood;
+        this.typeOfFood = typeOfFood;
     }
 
     ///GET SET
